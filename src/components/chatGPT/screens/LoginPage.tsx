@@ -1,9 +1,9 @@
 import React from "react";
-import { ChatPaddingWrapper, ChatWindow } from "../components/ChatWindow";
+import { ChatPaddingWrapper, ChatWindow } from "../components/atoms/ChatWindow";
 import { FaGoogle, FaApple } from "react-icons/fa6";
 import { FaFacebookF, FaUser } from "react-icons/fa";
 import { IoMdUnlock } from "react-icons/io";
-import { Button } from "../components/Button";
+import { Button } from "../components/atoms/Button";
 import { useChatRouteStore } from "../hooks/store";
 
 export const LoginPage = () => {

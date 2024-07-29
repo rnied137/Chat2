@@ -1,6 +1,6 @@
 import React from "react";
-import { ChatWindow } from "../components/ChatWindow";
-import { Button } from "../components/Button";
+import { ChatWindow } from "../components/atoms/ChatWindow";
+import { Button } from "../components/atoms/Button";
 import { Link } from "wouter";
 import { useChatRouteStore } from "../hooks/store";
 

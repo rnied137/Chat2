@@ -1,8 +1,8 @@
 import React from "react";
 import { IoMdUnlock } from "react-icons/io";
-import { Button } from "../components/Button";
+import { Button } from "../components/atoms/Button";
 import { FaApple, FaGoogle, FaUser, FaMailchimp } from "react-icons/fa6";
-import { ChatPaddingWrapper, ChatWindow } from "../components/ChatWindow";
+import { ChatPaddingWrapper, ChatWindow } from "../components/atoms/ChatWindow";
 import { IoMdMail } from "react-icons/io";
 import { useChatRouteStore } from "../hooks/store";
 import { FaFacebookF } from "react-icons/fa";
